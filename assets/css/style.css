@@ -5,10 +5,12 @@ body {
 .heading-image {
     height: 200px;
     width: 200px;
-    border-radius: 15%;
+    border-radius: 50%;
     margin-left: 260px;
-    position: fixed;
-    border: 4px solid rgb(3, 177, 70, 0.4);
+    float: left;
+    padding: 5px;
+    border: 2px solid rgb(3, 177, 70);
+    background-color: rgb(3, 177, 70, 0.25);
 }
 
 .heading-main {
@@ -40,5 +42,45 @@ body {
 hr {
     width: 90%;
     height: 1px;
-    
 }
+
+.about-me {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    color: rgb(22, 166, 0);
+}
+
+.work-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    margin-left: 15px;
+    color: rgb(22, 166, 0);
+}
+
+.about-text {
+    width: 60%;
+    float: right;
+    border-left: 2px solid rgba(30, 30, 30, 0.297);
+    padding-left: 35px;
+    padding-right: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+p, li {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.skills-career-history {
+    float: left;
+    width: 35%;
+}
+
+h3, h4 {
+    text-align: center;
+    font-size: larger;
+}
+
