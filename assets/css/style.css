@@ -55,7 +55,7 @@ hr {
 .work-title {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 15px;
     color: rgb(22, 166, 0);
 }
@@ -81,21 +81,29 @@ p, li {
 
 h3, h4 {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .good-mark {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     border: 2px solid black;
     background-color: greenyellow;
 }
 
 .bad-mark {
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
     background-color: red;
+}
+
+.skill-title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: rgb(22, 166, 0);
 }
